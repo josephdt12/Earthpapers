@@ -12,7 +12,6 @@ namespace Earthpapers {
 
         // Static instance of HttpClient as per recommendations
         private static readonly HttpClient _client = new HttpClient();
-        var response;
 
         public Reddit() {
         }
